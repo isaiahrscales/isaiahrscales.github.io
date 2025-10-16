@@ -1,76 +1,129 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>YourBrand AI Automation Platform</title>
-  <meta name="description" content="AI automations that save time, cut costs, and help small businesses grow—without adding headcount." />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stratos – AI Automation Platform</title>
   <style>
-    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f9fafc; color:#222; }
-    header, footer { background:#111827; color:#fff; padding:20px; text-align:center; }
-    header h1 { margin:0; font-size:24px; }
-    nav a { color:#fff; margin:0 10px; text-decoration:none; }
-    .container { max-width:900px; margin:0 auto; padding:20px; }
-    h2 { color:#111827; }
-    .card { background:#fff; border:1px solid #ddd; border-radius:8px; padding:20px; margin:20px 0; }
-    .cta { display:inline-block; background:#2563eb; color:#fff; padding:12px 20px; border-radius:6px; text-decoration:none; font-weight:bold; }
-    .cta:hover { background:#1e4ed8; }
-    ul { padding-left:20px; }
-    footer p { margin:5px 0; font-size:14px; }
+    /* Base Reset */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #0f0f1a, #1a1a2e);
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+    a { text-decoration: none; color: inherit; }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding: 5rem 2rem;
+      background: linear-gradient(135deg, #1a1a2e, #0f0f1a);
+    }
+    header h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      background: linear-gradient(90deg, #6a5acd, #00c6ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    header p {
+      margin-top: 1rem;
+      font-size: 1.3rem;
+      color: #aaa;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 1rem 2.5rem;
+      background: linear-gradient(90deg, #6a5acd, #00c6ff);
+      border-radius: 50px;
+      font-weight: 600;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .cta:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    /* Main Sections */
+    main {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+    }
+    section {
+      margin-bottom: 3rem;
+      padding: 2rem;
+      background: rgba(255,255,255,0.03);
+      border-radius: 12px;
+      backdrop-filter: blur(6px);
+    }
+    section h2 {
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+      color: #6a5acd;
+    }
+    ul { list-style: none; }
+    ul li {
+      margin: 0.5rem 0;
+      padding-left: 1.2rem;
+      position: relative;
+    }
+    ul li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #00c6ff;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>YourBrand AI</h1>
-    <nav>
-      <a href="#features">Features</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <h1>Stratos</h1>
+    <p>AI Automation Platform</p>
+    <a class="cta" href="https://buy.stripe.com/aFaeVfboY4xq6ja4Zv67S00">Get Started</a>
   </header>
 
-  <div class="container">
+  <main>
     <section>
-      <h2>Automation that Pays for Itself</h2>
-      <p>We help small businesses save time and grow faster with AI workflows that capture leads, send follow‑ups, book appointments, and keep operations running 24/7—without extra staff.</p>
-      <a class="cta" href="https://checkout.stripe.com/pay/YOUR_PAYMENT_LINK">Get Started</a>
+      <h2>Pricing</h2>
+      <p><strong>$2,500</strong> one‑time onboarding fee</p>
+      <p><strong>$350/month</strong> subscription</p>
+      <a class="cta" href="https://buy.stripe.com/aFaeVfboY4xq6ja4Zv67S00">Subscribe Now</a>
     </section>
 
-    <section id="features" class="card">
-      <h2>What You Get</h2>
+    <section>
+      <h2>Features</h2>
       <ul>
-        <li>Done‑for‑you onboarding and setup</li>
-        <li>Lead capture, reminders, and review requests</li>
-        <li>Real‑time dashboards and analytics</li>
-        <li>Priority support and ongoing optimization</li>
+        <li>Onboarding, automation, dashboards, support, updates</li>
       </ul>
     </section>
 
-    <section id="pricing" class="card">
-      <h2>Pricing</h2>
-      <p><strong>$2,500</strong> one‑time onboarding: white‑glove setup, branding, and integrations.</p>
-      <p><strong>$399/month</strong> subscription: automation suite, analytics, support, and updates.</p>
-      <a class="cta" href="https://checkout.stripe.com/pay/YOUR_PAYMENT_LINK">Secure Checkout</a>
-    </section>
-
-    <section id="contact" class="card">
+    <section>
       <h2>Contact</h2>
-      <p>Email: <a href="mailto:founder@yourbrand.ai">founder@yourbrand.ai</a></p>
-      <p>Business Address: 123 Business Ave, Suite 100, Costa Mesa, CA</p>
-      <p>Phone: (949) 555‑0123</p>
+      <p>Email: <a href="mailto:isaiah.rodriguezbusiness@gmail.com">isaiah.rodriguezbusiness@gmail.com</a></p>
     </section>
 
-    <section class="card">
+    <section>
       <h2>Policies</h2>
-      <p><strong>Refund Policy:</strong> If onboarding deliverables are not completed within 14 days, you may request a full refund of the setup fee. Subscriptions can be canceled anytime.</p>
-      <p><strong>Privacy:</strong> We never sell customer data. See our <a href="privacy.html">Privacy Policy</a>.</p>
-      <p><strong>Terms:</strong> Service provided as‑a‑service. See our <a href="terms.html">Terms of Service</a>.</p>
+      <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
     </section>
-  </div>
+  </main>
 
   <footer>
-    <p>© 2025 YourBrand AI — All rights reserved.</p>
-    <p>Built for small businesses that want big‑company leverage.</p>
+    <p>© 2025 Stratos — All rights reserved.</p>
   </footer>
 </body>
 </html>
